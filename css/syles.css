@@ -1,0 +1,188 @@
+body {
+background-color: white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 400;
+margin-top: 3rem;
+margin-bottom: 3rem;
+margin-left: 5%;
+margin-right: 5%;
+padding: 10px;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: large;
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: medium;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 875px;
+    flex-wrap: wrap;
+}
+.nav nav > a
+{
+color: hsl(240, 75%, 98%);
+text-decoration-line: none;
+word-spacing: 40px;
+}
+.link{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+column-gap: 5px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 100px;
+    background-color: hsl(240, 75%, 98%);
+    flex-wrap: wrap;
+}
+.begin{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 10%;
+    flex-wrap: wrap;
+}
+.link a{
+    color: turquoise;
+    padding-top: 2em;
+}
+.arrow{
+    align-self: flex-end;
+}
+.no-need{
+    padding-bottom: 15px;
+    text-align: justify;
+}
+.expression{
+    width: 500px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: content-box;
+    box-shadow: 0 0 3px;
+    width: 300px;
+    border-radius: 3px;
+    color: black;
+    padding: 2em;
+}
+.avatar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.picture{
+    align-self: center;
+    clip-path: circle();
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.first{
+    width: 450px;
+    padding-left: 60px;
+}
+.grid-container{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-evenly;
+    background-color: hsl(238, 22%, 44%);
+    column-gap: 250px;
+}
+.item1{
+    text-justify: auto;
+    justify-self: center;
+}
+.item1 h2, .item1 p{
+color: white;
+}
+.item2{
+    align-self: center;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: hsl(243, 87%, 12%);
+    flex-wrap: wrap;
+}
+.bottom img{
+    filter: brightness(0) invert(1);
+}
+.logo-phone{
+    align-self: auto;
+}
+.logo-phone p{
+color: white;
+}
+.navigation ul > a{
+    color: white;
+    text-decoration-line: none;
+}
+.pointer ul > a{
+    color: white;
+    text-decoration-line: none;
+}
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    button{
+        background-color: blue;
+        color: white;
+        border-color: blue;
+    }
+    .curve-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    @media (max-width:376px) {
+        .container {
+            display: flex;
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+        .flex-container{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: flex-end;
+            padding: 100px;
+            background-color: hsl(240, 75%, 98%);
+            flex-wrap: wrap;
+            width: 500px; 
+    }
+    .grid-container{
+        display: grid;
+        justify-content: center;
+        grid-auto-flow: row;
+        width: 700px;
+    }
+    .bottom{
+        display: grid;
+        justify-content: center;
+        width: 700px;
+    }
+    .logo-phone{
+        align-self: center;
+    }
+    .item2{
+        align-self: self-end;
+    }
+    .bg-curve img{
+        width: 700px;
+    }
+}
